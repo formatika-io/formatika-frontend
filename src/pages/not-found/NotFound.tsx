@@ -15,7 +15,7 @@ function NotFound() {
         The page you requested could not be found.
       </p>
       <Link to="/" className="text-blue-500 hover:underline mt-8 inline-block">
-        Go back to Home
+        Come back Home
       </Link>
     </div>
   );

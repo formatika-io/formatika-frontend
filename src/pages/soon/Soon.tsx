@@ -17,7 +17,7 @@ function Soon() {
         We're currently working on this section and will have it available soon.
       </p>
       <Link to="/" className="text-blue-500 hover:underline mt-8 inline-block">
-        Go back to Home
+        Come back Home
       </Link>
     </div>
   );
