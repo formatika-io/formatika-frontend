@@ -14,7 +14,7 @@ function NotFound() {
       <p className="text-gray-600 mt-4">
         The page you requested could not be found.
       </p>
-      <Link to="/" className="text-blue-500 hover:underline mt-8">
+      <Link to="/" className="text-blue-500 hover:underline mt-8 inline-block">
         Go back to Home
       </Link>
     </div>
