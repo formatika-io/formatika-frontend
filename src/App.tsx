@@ -1,15 +1,22 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Navbar from "./components/navbar/Navbar";
+import NotFound from "./pages/not-found/NotFound";
 
 function App() {
   return (
-    <div className="text-3xl text-red-500">
-      Formatika is open soure project fo volunteers developers
-<FontAwesomeIcon icon={faArrowRight} className="text-2xl text-red-500" />
-
-    </div>
-  )
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
