@@ -3,13 +3,18 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: local('Poppins'), url('./assets//fonts/Poppins-Regular.ttf') format('truetype');
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./assets//fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+.container {
+  width: 80%;
 }
