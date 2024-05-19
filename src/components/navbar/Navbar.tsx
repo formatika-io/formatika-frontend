@@ -5,7 +5,7 @@ import eyeIcon from "../../assets/images/eye-icon.png";
 
 function Navbar() {
   return (
-    <nav className="px-16 py-6 text-white flex items-center justify-between">
+    <nav className="px-36 py-8 text-white flex items-center justify-between">
       <Link to="/" className="text-xl font-bold flex items-center relative">
         <span>formatika.i</span>
         {/* <FontAwesomeIcon icon={faEye} className="text-[17px] ml-[2px]" /> */}
@@ -14,17 +14,22 @@ function Navbar() {
       <ul className="flex space-x-4">
         <li>
           <Link to="/" className="hover:text-gray-400">
-            Home
+            dokumentasiya
           </Link>
         </li>
         <li>
           <Link to="/about" className="hover:text-gray-400">
-            About
+            biz kimik?
           </Link>
         </li>
         <li>
           <Link to="/contact" className="hover:text-gray-400">
-            Contact
+            əlaqə
+          </Link>
+        </li>
+        <li>
+          <Link to="/login" className="px-4 py-2 rounded border border-white">
+            daxil ol
           </Link>
         </li>
       </ul>
