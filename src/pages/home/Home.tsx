@@ -3,7 +3,7 @@ import { PROGRAMMING_LANGUAGES } from "./constants";
 
 function Home() {
   return (
-    <div className="px-4 py-16 text-center bg-gray-800 text-white">
+    <div className="px-4 py-16 text-center text-white h-screen flex">
       <div className="container mx-auto">
         <h1 className="text-3xl font-bold">Proqramlaşdırmaya aid hər şey</h1>
         <p className="mt-4">
